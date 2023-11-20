@@ -1,0 +1,58 @@
+
+#cocoaplan {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../../public/img/cocoaPlan_background.png'), 
+                radial-gradient(circle at 45% 45%, rgb(132 24 23) -12%, rgb(62 28 26) 44%, rgb(62 28 26) 44%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cocoaplan .content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+#cocoaplan .txt-content {
+    margin-top: 5vh;
+    width: 100%;
+    text-align: left;
+}
+
+.btn-cocoa {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    padding: 8px;
+    color: rgb(132 24 23);
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s, color 0.5s, transform 0.5s;
+}
+
+.btn-cocoa:hover {
+    background-color: rgb(116, 47, 8);
+    box-shadow: 0px 15px 20px rgb(109 25 24);
+    color: #fff;
+    transform: translateY(-3px);
+  }
+
+
+@media(max-width: 1100px) {
+    #cocoaplan {
+        background: url('../../public/img/cocoaPlan_tablet_background.png'), 
+                    radial-gradient(circle at 45% 45%, rgb(132 24 23) -12%, rgb(62 28 26) 44%, rgb(62 28 26) 44%);
+        background-size: cover;
+    }
+
+    #cocoaplan .content {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 5vh;
+    }
+}

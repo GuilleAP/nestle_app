@@ -1,0 +1,42 @@
+
+#promociones .content {
+    flex-direction: row-reverse;
+    margin-top: 3vh;
+}
+
+#promociones h2 {
+    font-size: 1em;
+    text-align: left;
+    font-weight: 400;
+}
+
+#promociones p {
+    text-align: left;
+}
+
+#promociones .img-content img {
+    width: 85%;
+}
+
+img-content {
+    bottom: 0px;
+}
+
+
+
+@media(max-width: 1100px) {
+    #promociones .content {
+        flex-direction: column;
+        width: 100vw;
+        margin: 0;
+    }
+
+
+    #promociones .txt-content {
+        margin-bottom: 5vh;
+    }
+
+    #promociones .img-content img {
+        width: 120%;
+    }
+}

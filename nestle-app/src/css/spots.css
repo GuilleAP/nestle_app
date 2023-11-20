@@ -1,0 +1,51 @@
+#spots .content {
+    flex-direction: row-reverse;
+}
+
+#spots h2 {
+    font-size: 1.3em;
+    text-align: left;
+    font-weight: 700;
+}
+
+#spots p {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+#spots .txt-content {
+    margin-left: 3em;
+    width: 500px;  
+}
+
+.btn-spots {
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    padding: 8px;
+    color: rgb(132 24 23);
+}
+
+
+@media(max-width:1100px) {
+    #spots .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #spots .txt-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+    }
+
+    .img-content {
+        margin-top: 5vh;
+    }
+
+    .btn-spots {
+        width: 50%;
+    }
+}

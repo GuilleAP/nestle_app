@@ -1,0 +1,13 @@
+#historia {
+    background: url('../../public/img/historia_background.png'), 
+    radial-gradient(circle at 45% 37%, rgb(200 140 80) -12%, rgb(127 81 37) 44%, rgb(126 82 37) 44%);
+    background-size: cover;
+}
+
+
+@media(max-width: 900px) {
+    #historia {
+        background: radial-gradient(circle at 45% 37%, rgb(200 140 80) -12%, rgb(127 81 37) 44%, rgb(126 82 37) 44%);
+        background-size: cover;
+    }
+}
